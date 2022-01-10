@@ -1,0 +1,48 @@
+{
+  "name": "examen-final-scris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "./exam/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^5.2.7",
+    "file-loader": "^6.2.0",
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.45.1",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.25.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot -d --open",
+    "watch": "nodemon --exec \"npm run start\" webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CosticaPuntaru/examen-final-scris-ejobs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CosticaPuntaru/examen-final-scris-ejobs/issues"
+  },
+  "homepage": "https://github.com/CosticaPuntaru/examen-final-scris-ejobs#readme"
+}
